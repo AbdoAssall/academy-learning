@@ -23,6 +23,9 @@ Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 // --- Dashboard ---
 
-Route::get('/dashboard', [DashboardController::class, 'indexDashboard'])->name('dashboard.index');
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard.index');
+Route::get('/dashboard/create/courses', [DashboardController::class, 'create'])->name('dashboard.create');
+Route::post('/dashboard/show/courses', [DashboardController::class, 'store'])->name('dashboard.store');
+Route::get('/dashboard/show/courses', [DashboardController::class, 'show'])->name('dashboard.show');
 
 // --- Dashboard ---

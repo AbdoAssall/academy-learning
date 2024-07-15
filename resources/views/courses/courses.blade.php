@@ -16,7 +16,7 @@
             <div class="col-lg-12">
                 <div class="breadcrumb_iner text-center">
                     <div class="breadcrumb_iner_item">
-                        <h2>Our Courses</h2>
+                        <h2>{{request()-> routeIs('courses.categry') ? $category->name : 'Our Courses'}}</h2>
                         <p>Home<span>/</span>Courses</p>
                     </div>
                 </div>

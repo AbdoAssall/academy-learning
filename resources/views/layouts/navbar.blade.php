@@ -72,7 +72,7 @@
                                 <!-- Show this link only if the user is not logged in -->
                                 @guest
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{route('login')}}" style="color: #ff663b;">Log In</a>
+                                    <a class="nav-link" href="{{route('login')}}" style="color: #FFB401;">Log In</a>
                                 </li>
                                 @endguest
 

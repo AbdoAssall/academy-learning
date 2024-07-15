@@ -18,5 +18,16 @@ class Course extends Model
     public function student(){
         return $this->belongsToMany(Student::class);
     }
+
+    protected $fillable = [
+        'name',
+        'small_description',
+        'full_description',
+        'price',
+        'imgPath',
+        'category_id',
+        'instructor_id',
+        'img_details',
+    ];
 }
 

@@ -13,13 +13,12 @@
             <div class="col-lg-6 col-xl-6">
                 <div class="banner_text">
                     <div class="banner_text_iner">
-                        <h5>Every child yearns to learn</h5>
-                        <h1>Making Your Childs
-                            World Better</h1>
+                        <h5 style="color: #E00051">Every student yearns to learn</h5>
+                        <h1>Innovative Learning for a Changing World</h1>
                         <p>Replenish seasons may male hath fruit beast were seas saw you arrie said man beast whales
                             his void unto last session for bite. Set have great you'll male grass yielding yielding
                             man</p>
-                        <a href="#" class="btn_1">View Course </a>
+                        <a href="{{route('courses')}}" class="btn_1">View Course </a>
                         <a href="#" class="btn_2">Get Started </a>
                     </div>
                 </div>
@@ -120,9 +119,9 @@
                 <div class="single_special_cource">
                     <img src="img/{{$course->imgPath}}" class="special_img" alt="">
                     <div class="special_cource_text">
-                        <a href="course-details.html" class="btn_4">{{$course->category->name}}</a>
+                        <a href="{{route('courses.categry', $course->category->id)}}" class="btn_4">{{$course->category->name}}</a>
                         <h4>{{$course->price}}</h4>
-                        <a href="course-details.html">
+                        <a href="{{route('courses.details', $course->id)}}">
                             <h3>{{$course->name}}</h3>
                         </a>
                         <p>{{$course->small_description}}</p>

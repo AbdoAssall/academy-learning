@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-lg-12 course_details_left">
                     <div class="main_image">
-                        <img class="img-fluid" src="{{asset('img/single_cource.png')}}" alt="">
+                        <img class="img-fluid" src="{{asset('img')}}/{{$course->img_details}}" alt="">
                     </div>
                     <div class="content_wrapper">
                         <!-- <h4 class="title_top">Objectives</h4> -->
