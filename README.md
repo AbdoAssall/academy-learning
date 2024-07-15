@@ -1,3 +1,16 @@
+# Learning Academy Platform 
+
+Developed an interactive web platform for a learning academy. Features include course listings, student and instructor enrollment, progress tracking, and online assessments, all within a user-friendly interface. 
+
+## Key Features:
+- Dynamic dashboard for course and instructor management. 
+- Edit and control page sections (Home, About, Contact, Login & Register).
+- Manage elements like header and footer. 
+- Full control over data (add, show, update, delete).
+- Utilized MySQL for data storage and Bootstrap for responsive design.
+- Technologies Used: HTML, CSS(Bootstrap), Sass, JavaScript, Laravel (PHP)
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
