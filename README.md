@@ -8,8 +8,28 @@ Developed an interactive web platform for a learning academy. Features include c
 - Manage elements like header and footer. 
 - Full control over data (add, show, update, delete).
 - Utilized MySQL for data storage and Bootstrap for responsive design.
-- Technologies Used: HTML5, CSS3, Bootstrap, Sass, JavaScript, Laravel (PHP)
+- Technologies Used: HTML5, CSS3, Bootstrap, JavaScript, Laravel (PHP)
 
+## Screenshot 
+<br/>
+<div align="left">
+<img src="https://mostaql.hsoubcdn.com/uploads/thumbnails/1233610/66e6722f5e603/11.png" width="300" alt="Laravel Logo">
+     <img width="12" />
+<img src="https://mostaql.hsoubcdn.com/uploads/portfolios/1233610/66e671ec2570a/11.1.png" width="300" alt="Laravel Logo">
+     <img width="12" />
+<img src="https://mostaql.hsoubcdn.com/uploads/portfolios/1233610/66e671ec60bed/11.2.png" width="300" alt="Laravel Logo">
+     <img width="12" />
+<img src="https://mostaql.hsoubcdn.com/uploads/portfolios/1233610/66e671ec984f3/11.3.png" width="300" alt="Laravel Logo">
+     <img width="12" />
+<img src="https://mostaql.hsoubcdn.com/uploads/portfolios/1233610/66e671ecbd4fc/11.4.png" width="300" alt="Laravel Logo">
+     <img width="12" />
+<img src="https://mostaql.hsoubcdn.com/uploads/portfolios/1233610/66e671ecf2d5b/11.5.png" width="300" alt="Laravel Logo">
+     <img width="12" />
+    <h3># Dashbord</h3>
+<img src="https://mostaql.hsoubcdn.com/uploads/portfolios/1233610/66e671ed68c14/12.1.png" width="400" alt="Laravel Logo">
+     <img width="12" />
+<img src="https://mostaql.hsoubcdn.com/uploads/portfolios/1233610/66e671ed97249/12.png" width="400" alt="Laravel Logo">
+</div>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
